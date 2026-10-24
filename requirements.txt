@@ -1,0 +1,9 @@
+# Excel Splitter -- runtime + build dependencies
+# Install with:  pip install -r requirements.txt
+
+PySide6>=6.6,<7.0        # GUI framework
+pandas>=2.1               # data processing
+openpyxl>=3.1             # .xlsx / .xlsm read + write
+xlrd>=2.0.1                # legacy .xls read support
+xlsxwriter>=3.1            # fast-path .xlsx writer (used for .xls sources)
+pyinstaller>=6.3            # builds the standalone Windows .exe
